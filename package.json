@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "chmod +x node_modules/.bin/vite && node_modules/.bin/vite build"
+    "build": "react-scripts build"
   },
   "browserslist": {
     "production": [
