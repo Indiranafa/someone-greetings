@@ -10,8 +10,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "vercel-build": "npm ci && npm run build"
+    "build": "chmod +x node_modules/.bin/vite && node_modules/.bin/vite build"
   },
   "browserslist": {
     "production": [
