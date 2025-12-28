@@ -13,10 +13,12 @@ function LandingPage({ onScrollToContent }) {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  // Animasi fade-in dihapus sesuai permintaan
   return (
     <section
       style={{
         minHeight: '100vh',
+        height: '100vh',
         width: '100vw',
         display: 'flex',
         flexDirection: 'column',

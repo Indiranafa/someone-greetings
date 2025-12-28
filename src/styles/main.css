@@ -99,6 +99,11 @@ button:focus, [role="button"]:focus {
 body, .App {
   background: #181c20;
   color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 /* Inspirational Quote Styles */
 
